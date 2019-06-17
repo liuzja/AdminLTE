@@ -4,6 +4,7 @@ pipeline {
     stage('stap') {
       steps {
         sh 'echo'
+        sleep 30
       }
     }
   }
